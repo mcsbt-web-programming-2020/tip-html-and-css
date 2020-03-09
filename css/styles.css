@@ -1,0 +1,84 @@
+body {
+    font-family: Arial;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 1em;
+}
+
+.member {
+    border: solid 1px #CCC;
+    display: inline-block;
+    padding: 1.5em;
+    text-align: center;
+    margin: 1em;
+}
+
+.member:hover {
+    box-shadow: 5px 5px 5px #CCC;
+}
+
+.excerpt {
+    color: #444;
+    margin: 0 0 1em 0;
+}
+
+.connections {
+    font-size: 0.7em;
+    color: #444;
+}
+
+.picture {
+    width: 150px;
+    border-radius: 50%;
+}
+
+.connect {
+    width: 100%;
+    background-color: #FFF;
+    border: 1px solid lightblue;
+    border-radius: 3px;
+    margin: 2em 0 0 0;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+header {
+    background-color: #283e4a;
+    color: #FFF;
+    padding: 1em;
+}
+
+footer {
+    bottom: 0px;
+    background-color: #283e4a;
+    display: block;
+}
+
+footer .nav {
+    list-style: none;
+    overflow: hidden;
+}
+
+footer .nav-item {
+    float: left;
+    padding: 2em;
+    color: #FFF;
+}
+
+footer .nav-item:hover {
+    background-color: #222;
+}
+
+footer .nav-item a {
+    color: #FFF;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .member {
+        display: block;
+    }
+}
