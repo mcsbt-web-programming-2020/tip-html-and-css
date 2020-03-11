@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #283E4A;
+    color: white;
+    padding: 1em;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.member {
+    display: inline-block;
+    border: 1px solid #CCC;
+    padding: 1em;
+    text-align: center;
+    margin: 1em;
+}
+
+.member:hover {
+    box-shadow: 5px 5px 5px #CCC;
+}
+
+.member .picture {
+    border-radius: 50%;
+}
+
+.member .connections {
+    font-size: 0.7em;
+    margin: 1em 0 1em 0;
+    color: #777;
+}
+
+.member .excerpt {
+    color: #777;
+}
+
+.member .connect {
+    width: 100%;
+    background-color: #FFF;
+    border: 1px solid lightblue;
+}
+
+.member .connect:hover {
+    background-color: #CCC;
+}
